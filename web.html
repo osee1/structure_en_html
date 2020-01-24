@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Structurer un contenu HTML</title>
+</head>
+<body>
+<!--entete-->
+<header>
+    <h1>World Wide Web</h1>
+</header>
+<!--content-->
+<main>
+    <div>
+        <p>
+            Le <strong>​ World Wide Web​</strong>
+            (litt. la « toile (d’araignée) mondiale », abrégé www ou le Web), le réseau
+            mondial ou la Toile, est un système hypertexte public fonctionnant sur Internet. Le Web permet
+            de consulter, avec un navigateur, des pages accessibles sur des sites. L’image de la toile
+            d’araignée vient des hyperliens qui lient les pages web entre elles.
+        </p>
+        <p>
+            Le Web n’est qu’une des applications​ <a href="index.html"> d’Internet</a>
+            distincte
+            d’autres applications comme le courrier électronique, la messagerie instantanée et le partage
+            de fichiers en pair à pair. Le Web est inventé le 12 mars 1989 au CERN, à Meyrin, près de
+            Genève par Tim Berners-Lee et le Belge Robert Cailliau plusieurs années après Internet. C'est
+            également le Web qui a rendu les médias grand public attentifs à Internet. Depuis, le Web est
+            fréquemment confondu avec Internet ; en particulier, le mot Toile est souvent utilisé dans les
+            textes non techniques sans qu'il soit clair si l'auteur désigne le Web ou Internet.
+        </p>
+        <I>
+            Le web est plus une invention sociale que technologique. Je l’ai conçu pour qu’il ait un
+            effet social – aider les gens à travailler ensemble – et non comme un jouet
+            technologique. — Tim Berners-Lee, Weaving the Web, 1999
+        </I>
+    </div>
+    <div>
+        <img src="assets/logo.svg" alt="la photo du logo de www" title="la photo du logo de www">
+        <p>Fig 1 : Logo historique du World Wide Web par Robert Cailliau.</p>
+    </div>
+    <div>
+        <h2>Spécifications</h2>
+        <h4>Abréviations</h4>
+        <p>Le World Wide Web est désigné par de nombreux noms et abréviations synonymes :</p>
+        <ul>
+            <li><em>WorldWideWeb</em></li>
+            <li><em>World Wide Web</em></li>
+            <li><em>World-wide Web</em></li>
+            <li><em>Web</em></li>
+            <li><em>WWW</em></li>
+            <li><em>W3</em></li>
+            <li><em>Toile d’araignée mondiale</em></li>
+            <li><em>Toile mondiale</em></li>
+            <li><em>Toile</em></li>
+        </ul>
+    </div>
+    <div>
+        <h3>La premier page web</h3>
+        <h4>Voici le code de la première page Web :</h4>
+        <pre>
+        &ltHEADER&gt
+        &ltTITLE&gtThe World Wide Web project&lt/TITLE&gt
+        &ltNEXTID N="55"&gt
+        &lt/HEADER&gt
+        &ltBODY&gt
+        &ltH1&gtWorld Wide Web&lt/H1&gtThe WorldWideWeb (W3) is a wide-area&ltA
+        NAME=0 HREF="WhatIs.html"&gt
+        hypermedia&lt/A&gt information retrieval
+        initiative aiming to give universal
+        access to a large universe of documents.&ltP&gt
+        Everything there is online about
+        W3 is linked directly or indirectly
+        to this document, including an &ltA
+        NAME=24 HREF="Summary.html"&gtexecutive
+        summary&lt/A&gt of the project, &ltA
+        NAME=29 HREF="Administration/Mailing/Overview.html"&gtMailing lists&lt/A&gt
+        ,&ltA
+        NAME=30 HREF="Policy.html"&gtPolicy&lt/A&gt , November's &ltA
+        NAME=34 HREF="News/9211.html"&gtW3 news&lt/A&gt,&ltA
+        NAME=41 HREF="FAQ/List.html"&gtFrequently Asked Questions&lt/A&gt
+        &ltDL&gt
+        &ltDT&gt&ltA
+        NAME=44 HREF="../DataSources/Top.html"&gtWhat's out there?&lt/A&gt
+        &ltDD&gt Pointers to the
+        world's online information,&ltA
+        NAME=45 HREF="../DataSources/bySubject/Overview.html"&gt subjects&lt/A&gt
+        ,&ltA
+        NAME=z54 HREF="../DataSources/WWW/Servers.html"&gtW3 servers&lt/A&gt, etc.
+        &ltDT&gt&ltA
+        NAME=46 HREF="Help.html"&gtHelp&lt/A&gt
+        &ltDD&gt on the browser you are using
+        &ltDT&gt&ltA
+        NAME=13 HREF="Status.html"&gtSoftware Products&lt/A&gt
+        &ltDD&gt A list of W3 project
+        components and their current state.
+        (e.g. &ltA
+        NAME=27 HREF="LineMode/Browser.html"&gtLine Mode&lt/A&gt ,X11 &ltA
+        NAME=35 HREF="Status.html#35"&gtViola&lt/A&gt , &ltA
+        NAME=26 HREF="NeXT/WorldWideWeb.html"&gtNeXTStep&lt/A&gt
+        , &ltA
+        NAME=25 HREF="Daemon/Overview.html"&gtServers&lt/A&gt , &ltA
+        NAME=51 HREF="Tools/Overview.html"&gtTools&lt/A&gt ,&ltA
+        NAME=53 HREF="MailRobot/Overview.html"&gt Mail robot&lt/A&gt ,&ltA
+        NAME=52 HREF="Status.html#57"&gt
+        Library&lt/A&gt )
+        &ltDT&gt&ltA
+        NAME=47 HREF="Technical.html"&gtTechnical&lt/A&gt
+        &ltDD&gt Details of protocols, formats,
+        program internals etc
+        &ltDT&gt&ltA
+        NAME=40 HREF="Bibliography.html"&gtBibliography&lt/A&gt
+        &ltDD&gt Paper documentation
+        on W3 and references.
+        &ltDT&gt&ltA
+        NAME=14 HREF="People.html"&gtPeople&lt/A&gt
+        &ltDD&gt A list of some people involved 
+        in the project.
+        &ltDT&gt&ltA
+        NAME=15 HREF="History.html"&gtHistory&lt/A&gt
+        &ltDD&gt A summary of the history
+        of the project.&ltDT&gt&ltA
+        NAME=37 HREF="Helping.html"&gtHow can I help&lt/A&gt ?
+        &ltDD&gt If you would like
+        to support the web..
+        &ltDT&gt&ltA
+        NAME=48 HREF="../README.html"&gtGetting code&lt/A&gt
+        &ltDD&gt Getting the code by&ltA
+        NAME=49 HREF="LineMode/Defaults/Distribution.html"&gt
+        anonymous FTP&lt/A&gt , etc.&lt/A&gt
+        &lt/DL&gt
+        &lt/BODY&gt
+    </pre>
+</div>
+</main>
+</body>
+</html>
