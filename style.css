@@ -1,0 +1,96 @@
+body{
+    font-family: 'Baskerville', sans-serif;
+    background-color:#c8c8c8;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+a{
+    color: red;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+caption{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+tr{
+    height: 40px;
+}
+
+tr th{
+    background-color: #ddd;
+    color: white;
+    
+}
+
+tr:nth-child(2n){
+    background-color:#EEEEE0;
+}
+
+
+tr:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+figure{
+    border: 5px solid red;
+    border-radius: 10px;
+    width: 1155px;
+    background-color: #333333;
+    margin-left: 0;
+    margin-right: 0;
+}
+img{
+    max-width: 90%;
+    padding: 50px;
+}
+figcaption{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    bottom: 20px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    font-size: 24px;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+
+.cadre{
+    border: 2px dashed #8300f7;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #b9b6b6;
+    color: #8300f7;
+    line-height: 2;
+    font-size: 16px;
+}
